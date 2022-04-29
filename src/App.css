@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.Main{
+  height: auto;
+  background-color: black;
+}
+
+.cabecalho{
+  width:100%;
+  height: 200px;
+  background-image:url(tv3.jpg);
+}
+
+.cabecalho a{
+ width:200px;
+ height: 30px;
+ background-color:black;
+ font-size:20px;
+ color:rgb(255, 255, 255);
+ text-decoration: none;
+ float:right;
+ border-radius: 30px;
+ border-style:double;
+ border-color: #fff;
+}
+
+
+
+.menu{
+  width:100%;
+  height: 200px;
+  background-image: url(capa.jpg);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu a{
+  width:200px;
+  height:30px;
+  background-color: rgb(0, 0, 0);
+  text-decoration:none;
+  color:rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+.conteudo{
+  width:100%;
+  height:400px;
+  background-image:url(tv2.jpg);
+}
+
+.conteudo p{
+  color:#fff;
+}
+
+h1{
+  color:#fff
+}
+
+.galeria_de_fotos{
+  width:100%;
+  height:650px;
+  background-color: rgb(0, 0, 0);
+}
+
+.galeria_de_fotos img{
+  width: 200px;
+  height: 300px;
+  margin:10px;
+}
+
+.rodape{
+  width: 100%;
+  height: 100px;
+  background-image: url(EwSjtpDWUAIwZKp.jpg)
+}
+
+.rodape p{
+  color: #fff;
+}
+
+
